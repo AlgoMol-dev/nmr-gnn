@@ -1,0 +1,33 @@
+# requirements.txt
+
+# Python 3.8+ recommended
+# The exact version of torch should match your CUDA / CPU setup.
+torch==2.0.1
+torchvision==0.15.2  # optional; needed if you do image transforms, not mandatory
+torchaudio==2.0.2    # optional; also not mandatory unless you do audio tasks
+
+# PyTorch Geometric dependencies:
+# For a CPU-only environment:
+torch-geometric==2.3.1
+torch-scatter==2.1.1
+torch-sparse==0.6.17
+torch-cluster==1.6.0
+torch-spline-conv==1.2.1
+
+# If you need GPU acceleration, ensure the above packages match your Torch/CUDA versions.
+# You may install them via pip wheels from https://data.pyg.org/whl/ if the default pip release fails.
+
+# RDKit
+# If using conda, do: conda install -c conda-forge rdkit
+# If strictly using pip, try:
+rdkit-pypi==2022.9.5
+
+# Basic scientific stack
+numpy==1.24.3
+scipy==1.10.1
+
+# For data manipulation
+pandas==2.0.1
+
+# Additional utilities
+tqdm==4.65.0

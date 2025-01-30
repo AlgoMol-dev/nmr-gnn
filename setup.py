@@ -20,7 +20,7 @@ def read_version():
 setup(
     name="MagEquivNMR",
     version=read_version(),
-    description="Magnetic-Equivalence–Aware GNN for NMR Shift Prediction (AlgoMol)",
+    description="Magnetic-Equivalence-Aware GNN for NMR Shift Prediction (AlgoMol)",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     author="AlgoMol",

@@ -2,7 +2,7 @@
 
 # Python 3.8+ recommended
 # The exact version of torch should match your CUDA / CPU setup.
-torch==2.0.1
+torch==2.5.1
 torchvision==0.15.2  # optional; needed if you do image transforms, not mandatory
 torchaudio==2.0.2    # optional; also not mandatory unless you do audio tasks
 
